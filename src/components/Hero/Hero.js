@@ -13,7 +13,7 @@ const Hero = () => (
   <Section row padding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To My Personal Portfolio
+        Welcome To My Personal Portfolio  <Image style={{borderRadius: "50px 50px 50px 50px"}}src = {Profile} width="60px" height = "50px"  />
       </SectionTitle>
       <SectionText>
         Hello, My name is Alok aryal and i am currently studying Bachelor in
