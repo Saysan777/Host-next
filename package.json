@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "next": "^12.1.4",
@@ -18,11 +17,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-    "hereko-postbuild": "npm run build",
-    "lint": "next lint",
-    "export": "next export",
-    "prod": "next export"
+    "hereko-postbuild": "npm run build"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saysan777/Host-next.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Saysan777/Host-next/issues"
+  },
+  "homepage": "https://github.com/Saysan777/Host-next#readme",
+  "description": ""
 }
