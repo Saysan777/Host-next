@@ -2,14 +2,14 @@ import Image1 from '../images/Hello1.png';
 import Image2 from '../images/Hello2.png';
 import Image3 from '../images/Hello3.png';
 import Image4 from '../images/Hello4.png';
-import Image from 'next/image';
+
 
 export const projects = [
   {
     title: "WebRTC",
     description:
       "Using webRTC and React, Node. , expressJs , Postgres we created a platform for virtual streaming for students and teachers.",
-    image: <Image src= {Image1} width = "300px" height ="140px" alt="webRTC"/>,
+    image: Image1,
     tags: ["Postgres", "Express", "React", "Node"],
     source: "https://google.com",
     visit: "https://google.com",
@@ -19,7 +19,7 @@ export const projects = [
     title: "Portfolio",
     description:
       "Portfolio using React" ,
-    image: <Image src= {Image2} width = "300px" height ="140px" />,
+    image: Image2,
     tags: ["React", "JavaScript"],
     source: "https://google.com",
     visit: "https://google.com",
@@ -29,7 +29,7 @@ export const projects = [
     title: "Chat System",
     description:
       "Online chat system built with react and socket io.",
-    image: <Image src= {Image3} width = "300px" height ="140px" />,
+    image: Image3,
     tags: ["React", "Socket"],
     source: "https://google.com",
     visit: "https://google.com",
@@ -39,7 +39,7 @@ export const projects = [
     title: "Portfolio",
     description:
       "The portfolio is created using HTML, CSS and JS ",
-    image: <Image src= {Image4} width = "300px" height ="140px" />,
+    image: Image4,
     tags: ["React", "HTML" , "CSS"],
     source: "https://google.com",
     visit: "https://google.com",

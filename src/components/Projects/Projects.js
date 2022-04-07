@@ -2,6 +2,7 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import Image from 'next/image';
 
 
 const Projects = () => (
@@ -14,7 +15,7 @@ const Projects = () => (
         { projects.map(({id ,title, image ,description , tags , source, visit})=> 
         (
             <BlogCard key = {id}>
-              {image}
+             <Image src= {image} width = "300px" height ="140px" alt="webRTC"/>,
               <TitleContent>
                 <HeaderThree>
                   {title}
