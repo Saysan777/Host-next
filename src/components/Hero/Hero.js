@@ -8,6 +8,7 @@ import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
 
+
 const Hero = () => (
   <Section row padding>
     <LeftSection>
@@ -21,8 +22,8 @@ const Hero = () => (
         love the idea of coding so i want to persue frontend developer as career
         for me.
       </SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
-        Learn More
+      <Button>
+      <a href= "#foot" style={{color:"#f4f4f4"}}>  Learn More </a>
       </Button>
     </LeftSection>
   </Section>
