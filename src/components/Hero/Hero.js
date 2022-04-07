@@ -6,8 +6,7 @@ import {
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
-import Image from 'next/Image';
-import Profile from '../../images/Profile.jpg'
+
 
 const Hero = () => (
   <Section row padding>
