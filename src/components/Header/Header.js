@@ -1,6 +1,4 @@
 import Link from "next/link";
-import Image from "next/Image";
-import Profile from "../../images/Profile.jpg";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
