@@ -18,7 +18,7 @@ const Projects = () => (
              <Image src= {image} width = "300px" height ="140px" alt="webRTC"/>,
               <TitleContent>
                 <HeaderThree>
-                  {title} <a href={link}></a>
+                  {title} 
                 </HeaderThree>
                 </TitleContent>
                 <CardInfo>{description}</CardInfo>

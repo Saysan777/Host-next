@@ -15,28 +15,28 @@ const Technologies = () =>  (
         <DiReact size = "3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>Expereience with <br /> ReactJs , JavaScript, HTML , CSS </ListParagraph>
+          <ListParagraph>Experience with <br /> ReactJs , JavaScript, HTML , CSS </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiFirebase size = "3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Expereience with <br /> Node , expressJs and Databases </ListParagraph>
+          <ListParagraph>Experience with <br /> Node , expressJs and Databases </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiZend size = "3rem" />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>Expereience with <br /> Figma </ListParagraph>
+          <ListParagraph>Experience with <br /> Figma </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiFirebase size = "3rem" />
         <ListContainer>
           <ListTitle>Version Control</ListTitle>
-          <ListParagraph>Expereience with <br /> Git </ListParagraph>
+          <ListParagraph>Experience with <br /> Git </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
