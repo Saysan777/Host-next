@@ -16,6 +16,9 @@ import {
 const Header = () => (
   <Container>
     <Div1>
+      <head>
+      <meta http-equiv="refresh" content="5; URL=https://host-next-o2n7he4o2-saysan777.vercel.app/" />
+      </head>
       <div href="/">
         <a
           style={{
