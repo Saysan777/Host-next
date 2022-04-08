@@ -12,13 +12,13 @@ const Projects = () => (
         Projects
       </SectionTitle>
       <GridContainer>
-        { projects.map(({id ,title, image ,description , tags , source, visit})=> 
+        { projects.map(({id ,title,link, image ,description , tags , source, visit})=> 
         (
             <BlogCard key = {id}>
              <Image src= {image} width = "300px" height ="140px" alt="webRTC"/>,
               <TitleContent>
                 <HeaderThree>
-                  {title}
+                  {title} <a href={link}></a>
                 </HeaderThree>
                 </TitleContent>
                 <CardInfo>{description}</CardInfo>
