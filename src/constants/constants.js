@@ -19,7 +19,7 @@ export const projects = [
   {
     title: "Portfolio",
     description:
-      "Portfolio using React" ,
+      "Portfolio using ReactJS" ,
     image: Image2,
     tags: ["React", "JavaScript"],
     source: "https://google.com",
