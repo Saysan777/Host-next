@@ -17,7 +17,7 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>
         Hello, My name is <strong>Alok aryal </strong> 
-        and i completed my Bachelors in CSIT from <a href="" style={{ textDecoration: 'none', color:'cyan' }} target="_blank" > ACHS </a> college. I'm currently working as a full-stack software developer in 
+        and i completed my Bachelors in CSIT from <a href="https://achsnepal.edu.np/about-college/" style={{ textDecoration: 'none', color:'cyan' }} target="_blank" > ACHS </a> college. I'm currently working as a full-stack software developer in 
         <a href="https://www.keela.co/about-us" style={{ textDecoration: 'none', color:'cyan'}} target="_blank" > Keela </a>.
         I definitely do love the idea of coding so have been crafting and managing intuitive web applications.
       </SectionText>
