@@ -16,8 +16,8 @@ const Hero = () => (
         Welcome To My Personal Portfolio  
       </SectionTitle>
       <SectionText>
-        Hello, My name is <strong>Alok aryal</strong> 
-         and i completed my Bachelors in CSIT from ACHS college. I'm currently working as a full-stack software developer in 
+        Hello, My name is <strong>Alok aryal </strong> 
+        and i completed my Bachelors in CSIT from ACHS college. I'm currently working as a full-stack software developer in 
         <a href="https://www.keela.co/about-us" style={{ textDecoration: 'none', color:'cyan'}} target="_blank" > Keela </a>.
         I definitely do love the idea of coding so have been crafting and managing initutaive web applications.
       </SectionText>
