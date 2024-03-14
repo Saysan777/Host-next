@@ -1,3 +1,3 @@
-# Host-next
-Simple NextJs Portfolio
-Build using Nextjs
+# Personal Portfolio: alokaryal.com
+
+Build with Nextjs.
